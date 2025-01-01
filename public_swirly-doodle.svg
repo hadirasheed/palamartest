@@ -1,0 +1,11 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="swirlyPattern" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M0,50 Q25,0 50,50 T100,50" fill="none" stroke="white" stroke-width="1" opacity="0.1" />
+      <path d="M0,25 Q25,75 50,25 T100,25" fill="none" stroke="white" stroke-width="1" opacity="0.1" />
+      <path d="M0,75 Q25,25 50,75 T100,75" fill="none" stroke="white" stroke-width="1" opacity="0.1" />
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#swirlyPattern)" />
+</svg>
+
